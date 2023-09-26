@@ -27,3 +27,8 @@ jobs:
           pip install -r modules.txt
       - name: Run Python script and save output to coupon.txt
         run: python udemy.py > coupon.txt
+      - name: Collect logs
+        uses: actions/upload-artifact@v3
+        with:
+           name: coupon
+           path: coupon.txt
