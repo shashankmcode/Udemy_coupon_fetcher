@@ -2,7 +2,7 @@
 
 This Python script scrapes Udemy coupons from [DiskUdemy](https://www.discudemy.com/all) and stores the results in a `coupon.txt` file.
 
-## Prerequisites
+## Prerequisites.
 
 Before you begin, ensure you have met the following requirements:
 
